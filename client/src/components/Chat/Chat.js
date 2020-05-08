@@ -8,7 +8,7 @@ import Messages from '../Messages/Messages';
 import Input from '../Input/Input';
 
 import './Chat.css'
-let socket;T
+let socket;
 
 const Chat = ({ location }) => {
     const [name, setName] = useState('');
